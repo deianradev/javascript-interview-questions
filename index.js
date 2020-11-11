@@ -6,7 +6,7 @@ function log(data) {
 
 //////////////////////////////////////////////////////
 /* using split, reverse and join */
-/*
+
 function reverse(word) {
   return word
     .split("")
@@ -14,7 +14,6 @@ function reverse(word) {
     .join("");
 }
 log(reverse('reverse'))
-*/
 
 //////////////////////////////////////////////////////
 /* using spread operator, reverse and join */
@@ -44,7 +43,7 @@ log(reverse("car"));
 
 //////////////////////////////////////////////////////
 /******  using for loop 2nd way ******/
-
+/*
 function reverse(word) {
   let temp = "";
   for (let x = word.length - 1; x >= 0; x--) {
@@ -56,3 +55,4 @@ function reverse(word) {
 //1st iteration E
 //2nd iteration S
 console.log(reverse("reverse"));
+*/
