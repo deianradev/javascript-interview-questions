@@ -27,4 +27,4 @@ function isPalindrome(word) {
   return lowercaseAndAlphaNumeric === reversedWord ? true : false;
 }
 
-log(isPalindrome("Red rum, sir, is murderzzzz"));
+log(isPalindrome("Red rum, sir, is murder"));
